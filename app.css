@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(180deg, purple, #BC5FF1);
+	color: white;
+	font-family: 'Helvetica Neue';
+}
+
+#logo {
+	padding-top: 4em;
+	letter-spacing: 2px;
+	margin: 1em;
+	font-size: 24pt;
+	font-weight: 100;
+	text-align: center;
+}
+
+
+form#signin {
+	text-align: center;
+}
+
+form#signin input {
+	border-radius: 3em;
+	border: none;
+	padding: 1em;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	outline: none;
+}
+
+form#signin button {
+	cursor: pointer;
+	letter-spacing: 1px;
+	border: none;
+	padding: 1em 2em 1em 1em;
+	border-radius: 3em;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	background: #F15F5F;
+	color: white;
+	font-weight: 100;
+	outline: none;
+}
